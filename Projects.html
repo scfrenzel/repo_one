@@ -1,0 +1,485 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projects</title>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/mdb.js"></script>
+    <!-- Material Design Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <!-- Material Design Bootstrap             class="friendly-color" -->
+    <link href="css/mdb.css" rel="stylesheet">
+
+
+    <script>
+        function viewpic(location)
+        {
+            window.open(location);
+        }
+    </script>
+
+</head>
+
+<body style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+
+    <header class="light-blue">
+        <!--Navigation      danger-color   grey darken-3  grey darken-3    -->
+        <nav class="navbar light-blue">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand waves-effect waves-light" onclick="javascript:window.location.href='index.html'">Home</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+                    <ul class="nav navbar-nav">
+                        <!--class="active"-->
+                        <li class="active"><a href="#" class="waves-effect waves-light mask waves-effect">Projects <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#" class="waves-effect waves-light" onclick="javascript:window.location.href='Albums.html'">Albums</a></li>
+                        <li class="dropdown" style="display:none;">
+                            <a href="#" class="dropdown-toggle waves-effect waves-light" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="navbar-form navbar-right" role="search" style="display:none;">
+                        <div class="form-group waves-effect waves-light">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!--/.Navigation-->
+    </header>
+
+
+    <!--Banner-->
+    <div class="container-fluid " style="margin-top:-20px;" align="center">
+        <div class="row" align="center">
+            <div class="col-lg-12" style="width:100%;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+
+                <div align="center" style="padding-top:80px;padding-bottom:80px;" class="wow fadeInUp ">
+                    <h3>
+                        Here are some of my projects and accomplishments <br />(both professionally and recreationally)
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--   .NET Web Apps-->
+    <div class="container-fluid elegant-color-dark  wow fadeInUp" style="color:white;" align="center">
+        <div class="row" align="center">
+            <div class="col-lg-12" style="width:100%;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+                <div align="center" style="padding-top:5px;padding-bottom:5px;">
+                    <h3>Web Applications</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--IT IS Project Dashboard Detail-->
+    <div class="container-fluid dimension">
+        <div class="container wow fadeInUp dimension" style="padding-top:50px;padding-bottom:20px;" align="center">
+            <div class="row" align="center">
+                <div class="col-lg-12" style="width:100%;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+
+                    <div align="center" style="padding-top:10px;padding-bottom:10px;">
+                        <h2>
+                            IT & IS Project Dashboard
+                        </h2>
+
+                        <h5>
+                            I built this application as a way to manage all projects related to the IT and IS departments.
+                            This application has all the basic requirements you'd expect from management software with a few extra features
+                            which include an Overview, Task assignment section and Configurations section.
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+
+
+    <!--Dashboard Images-->
+    <div class="container-fluid dimension">
+        <div class="row" style="padding-top:30px;padding-bottom:60px;">
+            <div class="col-md-4" style="padding-top:20px;">
+                <div class="card hoverable wow fadeInUp">
+                    <div class="card-image" onclick="viewpic('img/ProjectImages/pd1.PNG');">
+                        <div class="view overlay hm-white-slight  z-depth-1" style="height:320px;">
+                            <img src="img/ProjectImages/pd1.PNG" alt="Generic placeholder image">
+                            <div class="mask waves-effect"></div>
+                        </div>
+
+                    </div>
+                    <div class="card-content darken-3">
+                        <p class="color:black">
+                            The overiew allows a user to quickly view how many projects are assigned to them, how many projects
+                            are behind schedule, and total projects by department. Each graph is responsive, and hovering over them provides additional detail.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-4" style="padding-top:20px;">
+                <div class="card hoverable wow fadeInUp">
+                    <div class="card-image" onclick="viewpic('img/ProjectImages/ps2.PNG');">
+                        <div class="view overlay hm-white-slight  z-depth-1" style="height:320px;">
+                            <img src="img/ProjectImages/ps2.PNG" alt="Generic placeholder image">
+                            <div class="mask waves-effect"></div>
+                        </div>
+
+                    </div>
+                    <div class="card-content">
+                        <p>Here you can see the many points of interest regarding tracking the progress of a project. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" style="padding-top:20px;">
+                <div class="card hoverable wow fadeInUp">
+                    <div class="card-image" onclick="viewpic('img/ProjectImages/pd3.PNG');">
+                        <div class="view overlay hm-white-slight  z-depth-1" style="height:320px;">
+                            <img src="img/ProjectImages/pd3.PNG" alt="Generic placeholder image">
+                            <div class="mask waves-effect"></div>
+                        </div>
+
+                    </div>
+                    <div class="card-content">
+                        <p>Here's the template for creating a new project. </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!--Line Equivalent-->
+    <div class="container-fluid wow fadeInUp" style="border-bottom:black solid 1px;"></div>
+
+    <!--HelpDesk-->
+    <div class="container-fluid escheresque" >
+        <!--HelpDesk-->
+        <div class="container wow fadeInUp" style="padding-top:50px;" align="center">
+            <div class="row" align="center">
+                <div class="col-lg-12" style="width:100%;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+
+                    <div align="center" style="padding-top:10px;padding-bottom:10px;">
+                        <h2>
+                            In-House IT  HelpDesk
+                        </h2>
+
+                        <h5>
+
+                            This project was a two-part venture, the first being the interface for the end users, the second was the ticket management portion.
+                            This new system uses Active Directory to leverage user-to-ticket mapping.
+                            This aids in locating users, emailing upates, providing up-to-date contact information, and identifying problematic PCs.
+                            The application used to submit a ticket was desinged with simplicity in mind (typically requiring only 5 clicks to submit a ticket).
+                            The management section is used to work on and complete tickets.
+                        </h5>
+
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <!--HelpDesk Images-->
+        <div class="container-fluid">
+            <div class="row" style="padding-top:30px;padding-bottom:60px;">
+                <div class="col-md-4" style="padding-top:20px;">
+                    <div class="card hoverable wow fadeInUp">
+                        <div class="card-image" onclick="viewpic('img/ProjectImages/hd2.PNG');">
+                            <div class="view overlay hm-white-slight  z-depth-1" style="height:320px;">
+                                <img src="img/ProjectImages/hd2_reduced.png" alt="Generic placeholder image">
+                                <div class="mask waves-effect"></div>
+                            </div>
+
+                        </div>
+                        <div class="card-content darken-3">
+                            <p class="color:black">
+                                If the user is not logged into their PC, or someone is submitting a ticket on their behalf,
+                                they can enter contact information into this modal and the ticket will then be tied to that information instead of the current AD / Windows user.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4" style="padding-top:20px;">
+                    <div class="card hoverable wow fadeInUp">
+                        <div class="card-image" onclick="viewpic('img/ProjectImages/pd3.PNG');">
+                            <div class="view overlay hm-white-slight  z-depth-1" style="height:320px;">
+                                <img src="img/ProjectImages/hd3_reduced.png" alt="Generic placeholder image">
+                                <div class="mask waves-effect"></div>
+                            </div>
+
+                        </div>
+                        <div class="card-content">
+                            <p>This is the summary page just before a ticket is submitted. From here the user can verify the correct information and submit a new ticket. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" style="padding-top:20px;">
+                    <div class="card hoverable wow fadeInUp">
+                        <div class="card-image" onclick="viewpic('img/ProjectImages/tm1.PNG');">
+                            <div class="view overlay hm-white-slight  z-depth-1" style="height:320px;">
+                                <img src="img/ProjectImages/tm1_reduced.png" alt="Generic placeholder image">
+                                <div class="mask waves-effect"></div>
+                            </div>
+
+                        </div>
+                        <div class="card-content">
+                            <p>Here's a view of the management side. A technician can enter pertinent details, provide resolution notes, update the time spent, and further categorize the ticket. </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+    <!--Line Equivalent-->
+    <div class="container-fluid wow fadeInUp" style="border-bottom:black solid 1px;"></div>
+
+
+    <!--Order Creator-->
+    <div class="container-fluid whiteptrn wow fadeInUp" style="padding-bottom:100px;padding-top:40px;">
+        <!--<div class="container wow fadeInUp" style="padding-top:50px;" align="center">-->
+            <div class="row" align="center" style="padding-bottom:40px;">
+                <div class="col-lg-12" style="width:100%;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+
+                    <div align="center" style="padding-top:10px;padding-bottom:10px;">
+                        <h2>
+                            Automated Order Creator
+                        </h2>
+
+
+                    </div>
+                </div>
+            </div>
+            <div  class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-4">
+                    <div style="padding:40px;">
+                        <h5 style="text-align:left;">
+
+                            This application was built to automate a frequent and time consuming process.
+                            When a user receives an email about creating new orders, she would upload the Excel sheet containing orders,
+                            the application would parse then display the orders with additional details pulled from our ERP system.
+                            Once the orders have been approved, she clicks the "Create" button and the application creates the orders
+                            using the API provided by our ERP system.
+
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 ">
+                    <div  class="view overlay hm-white-slight  z-depth-1 hoverable wow fadeInUp">
+                        <img src="img/ProjectImages/orders_reduced.png" onclick="viewpic('img/ProjectImages/orders.png');"/>
+                    </div>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+        <!--</div>-->
+
+        <!--Order Creator Images-->
+      
+    </div>
+   
+    
+
+    <!--  ****************************                     .NET Apps          ********************************                                 -->
+    <div class="container-fluid elegant-color-dark  wow fadeInUp" style="color:white;" align="center">
+        <div class="row" align="center">
+            <div class="col-lg-12" style="width:100%;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+                <div align="center" style="padding-top:5px;padding-bottom:5px;">
+                    <h3>.NET Applications</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Line Equivalent-->
+    <div class="container-fluid wow fadeInUp" style="border-bottom:black solid 1px;"></div>
+
+
+    <!--EDI Automation-->
+    <div class="container-fluid whiteptrn wow fadeInUp" style="padding-bottom:100px;padding-top:40px;">
+        <div class="row" align="center" style="padding-bottom:20px;">
+            <div class="col-lg-12" style="width:100%;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+
+                <div align="center" style="padding-top:10px;padding-bottom:10px;">
+                    <h2>
+                        EDI Automation
+                    </h2>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-4">
+                <div style="padding:40px;">
+                    <h5 style="text-align:left;">
+
+                        This application handles EDI communication from one of our customers. 
+                        As a daily task, this console application builds EDI files using invoice 
+                        data from our ERP system, and submits them via FTP. The counterpart to 
+                        this application is another console application what waits for acknowledgements, 
+                        downloads them when they are available, parses the file and saves the data to 
+                        a database. These two independent automated processes remove the need human 
+                        interaction for processing payments with EDI communication.
+
+                    </h5>
+                </div>
+            </div>
+            <div class="col-lg-4 ">
+                <div style="text-align:center;">
+                    <i style="font-size:300px;" class="fa fa-exchange" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+        <!--</div>-->
+        <!--Order Creator Images-->
+
+    </div>
+
+
+
+
+
+    <!--Line Equivalent-->
+    <div class="container-fluid wow fadeInUp" style="border-bottom:black solid 1px;"></div>
+
+
+    <!--Disk space monitor-->
+    <div class="container-fluid whiteptrn wow fadeInUp" style="padding-bottom:100px;">
+        <!--<div class="container wow fadeInUp" style="padding-top:50px;" align="center">-->
+        <div class="row" align="center" style="padding-bottom:20px;">
+            <div class="col-lg-12" style="width:100%;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+
+                <div align="center" style="padding-top:40px;padding-bottom:10px;">
+                    <h2>
+                        Disk Space Monitor
+                    </h2>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-4">
+                <div style="padding:40px;">
+                    <h5 style="text-align:left;">       
+                            This application runs as a monitoring service which periodically checks
+                            the available disk space of several mission critical servers. Should one
+                            of the servers be low on that resource, an email is sent to the IT team
+                            informing them of the issue at hand. This was built as a temporary solution
+                            to prevent server functionality failure on a company wide scale.
+
+                    </h5>
+                </div>
+            </div>
+            <div class="col-lg-4 ">
+                <div style="text-align:center;padding-top:30px;">
+                    <i style="font-size:250px;" class="fa fa-hdd-o" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+        <!--</div>-->
+        <!--Order Creator Images-->
+
+    </div>
+
+
+    <div class="container-fluid wow fadeInUp" style="border-bottom:black solid 1px;"></div>
+
+    <!--more To Come-->
+    <div class="container wow fadeInUp" style="background-color:white;padding-top:50px;" align="center">
+        <div class="row" align="center">
+            <div class="col-lg-12" style="width:100%;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+            <h2>more to come!</h2>
+</div></div></div>
+
+
+    <!--Line Equivalent-->
+   
+    
+    
+    
+    <br /><br /><br /><br />
+    <footer class="page-footer friendly-color-dark center-on-small-only">
+        <!---->
+        <div class="footer-copyright text-center rgba-black-light">
+            <div class="container-fluid">
+                © 2016 stevenfrenzel.com
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+    
+    <script>
+        $(document).ready(function () {
+
+            var wow = new WOW({
+                boxClass: 'wow', // default
+                animateClass: 'animated', // default
+                offset: 10, // default
+                mobile: true, // default
+                live: true // default
+            })
+            wow.init();
+
+        });
+                </script>
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/mdb.js"></script>
+
+</body>
+</html>
